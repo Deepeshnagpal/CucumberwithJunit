@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Navigate to StackoverFlow functionality
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 94.988 s <<< FAILURE! - in Navigate to StackoverFlow functionality
+Stackoverflow(Navigate to StackoverFlow functionality)  Time elapsed: 90.508 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'MC0AEP7C', ip: '172.20.10.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59413}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\A748795\AppData\Local\Temp\scoped_dir22140_16694}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 27a5621a90910cd6e68bfaa1306e2a49
+
+Stackoverflow(Navigate to StackoverFlow functionality)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: org.openqa.selenium.chrome.ChromeDriver cannot be cast to java.io.File
+
